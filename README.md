@@ -148,8 +148,8 @@ Toolchains that I used for LPC2138 Application design and development are as fol
 1: IDE for Application development of LPC2138                               - MDK-ARM Professional Keil uvision 5. 
 2: PC tool for Programming Flash of LPC2138                                 - Flash Magic.
 3: LCD                                                                      - JHD162A.
-4: Desktop Computer Architecture and OS for development                     - Intel X64 & Windows 7 (32 bit).
-5: CADD and Simulations                                                     - Proteus 8.0 Pro and/or Proteus 8.3 Pro SP2. 
+4: Desktop Computer Architecture and OS for development                     - Intel X64 & Windows 8.1 (64 bit).
+5: CAD and Simulations                                                      - Proteus 8.0 Pro and/or Proteus 8.3 Pro SP2. 
 6: Code editor                                                              - Notepad++.
 7: Documentation                                                            - Microsoft Office 2007 (alternative LibreOffice) and Text Editor. 
 
@@ -163,7 +163,6 @@ Some reference that I refered for LPC2138 Application design and development, ar
 6: https://www.nxp.com/docs/en/data-sheet/LPC2131_32_34_36_38.pdf - LPC2131/32/34/36/38 - Single-chip 16/32-bit microcontrollers; 32/64/128/256/512 kB ISP/IAP flash with 10-bit ADC and DAC,Rev. 5.1 — 29 July 2011 Product data sheet. 
 7: Hitachi HD44780U - LCD product data sheet.
 8: http://www.electronicwings.com/arm7  - ARM 7 Inside - LPC2148.
-
 
 Note :
 ======
