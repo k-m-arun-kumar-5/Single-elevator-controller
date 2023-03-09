@@ -1,0 +1,293 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: admin admin, midas comm, LIC=8MZ74-F6VXT-33JM1-C1DJ7-4HUEK-0H8B9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARM.DLL V5.21a
+Dialog DLL:      DARMP.DLL V1.52.0.0
+Target DLL:      UL2ARM.DLL V1.74.9.0
+Dialog DLL:      TARMP.DLL V1.52.0.0
+ 
+<h2>Project:</h2>
+E:\lpc_2138_codes\00_projects\elevator_04\elevator_04_src\elevator_04.uvproj
+Project File Date:  04/12/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling appl.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+appl.c(51): warning:  #177-D: variable "ret_status" was declared but never referenced
+        uint16_t ret_status;
+appl.c(293): warning:  #177-D: variable "cur_elevator_ptr" was declared but never referenced
+         elevator_ctrl_and_status_t *cur_elevator_ptr;
+appl.c(413): warning:  #177-D: variable "ret_status" was declared but never referenced
+        uint16_t ret_status;   
+appl.c(527): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(floor < 0 || floor >=  MAX_NUM_FLOORS)
+appl.c(1580): warning:  #177-D: variable "ret_status" was declared but never referenced
+        uint16_t ret_status;
+appl.c(2315): warning:  #177-D: variable "ret_status" was declared but never referenced
+        uint16_t ret_status;
+appl.c(2494): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(cur_elevator_ptr->cur_floor >= FLOOR_00 && cur_elevator_ptr->cur_floor <= TOP_MOST_FLOOR_ID - 1)
+appl.c(2516): warning:  #111-D: statement is unreachable
+                 break;
+appl.c(2523): warning:  #111-D: statement is unreachable
+                 break;
+appl.c(2553): warning:  #111-D: statement is unreachable
+                 break;
+appl.c(2560): warning:  #111-D: statement is unreachable
+                 break;
+appl.c: 12 warnings, 0 errors
+compiling dev_oper.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+dev_oper.c(445): warning:  #186-D: pointless comparison of unsigned integer with zero
+                  if(last_read_char >= 
+EGIN_CTRL_CHARS_ASCII_CODE && last_read_char <= END_CTRL_CHARS_ASCII_CODE)
+dev_oper.c(324): warning:  #550-D: variable "temp_ret_status" was set but never used
+        uint8_t data_valid_read_char_flag = STATE_NO, ret_status = rcvd_read_status, temp_ret_status, input_data_type, char_type_read_enable_flag, dev_type;
+dev_oper.c(602): warning:  #550-D: variable "ret_status" was set but never used
+      uint8_t i = 0, ret_status = SUCCESS, data_dev_type, min_dev_id, max_dev_id, max_data_dev_type_srcs;
+dev_oper.c(714): warning:  #186-D: pointless comparison of unsigned integer with zero
+        !((dev_src_basic_oper_func >= 
+TART_INPUT_DEV_BASIC_OPER_FUNC && dev_src_basic_oper_func <= END_INPUT_DEV_BASIC_OPER_FUNC) || 
+dev_oper.c(723): warning:  #186-D: pointless comparison of unsigned integer with zero
+          if(dev_src_basic_oper_func >= 
+TART_INPUT_DEV_BASIC_OPER_FUNC && dev_src_basic_oper_func <= END_INPUT_DEV_BASIC_OPER_FUNC )
+dev_oper.c(751): warning:  #186-D: pointless comparison of unsigned integer with zero
+                 if((data_dev_basic_oper_func_ptr->dev_id < 
+EGIN_OUTPUT_DEV_ID || data_dev_basic_oper_func_ptr->dev_id > END_OUTPUT_DEV_ID) )
+dev_oper.c(711): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t i = 0, ret_status, j = 0, min_dev_id, max_dev_id, max_data_dev_type_srcs, dev_src_allow_match_flag = STATE_NO;
+dev_oper.c(987): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status, i;
+dev_oper.c(1103): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status, comm_dev_func = 0, comm_dev_id_offset;
+dev_oper.c(1320): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t i = 0, max_data_dev_type_srcs, ret_status;
+dev_oper.c(1393): warning:  #186-D: pointless comparison of unsigned integer with zero
+          (dev_data_ptr->dev_id >= 
+EGIN_OUTPUT_DEV_ID && dev_data_ptr->dev_id <= END_OUTPUT_DEV_ID) ||
+dev_oper.c(1411): warning:  #186-D: pointless comparison of unsigned integer with zero
+                   if(!(dev_data_ptr->dev_id >= 
+EGIN_OUTPUT_DEV_ID && dev_data_ptr->dev_id <= END_OUTPUT_DEV_ID))
+dev_oper.c(1453): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t max_num_data_read_try, ret_status;      
+dev_oper.c: 14 warnings, 0 errors
+compiling elev_fsm_part_1.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+elev_fsm_part_1.c: 1 warning, 0 errors
+compiling elev_fsm_part_2.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+elev_fsm_part_2.c: 1 warning, 0 errors
+compiling elev_fsm_part_3.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+elev_fsm_part_3.c(42): warning:  #177-D: variable "proc_bit_field" was declared but never referenced
+        uint8_t proc_bit_field = 0;
+elev_fsm_part_3.c: 2 warnings, 0 errors
+compiling elev_fsm_part_4.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+elev_fsm_part_4.c(640): warning:  #111-D: statement is unreachable
+                break;
+elev_fsm_part_4.c(1164): warning:  #1-D: last line of file ends without a newline
+  -*------------------------------------------------------------------*/
+elev_fsm_part_4.c: 3 warnings, 0 errors
+compiling elev_fsm_part_5.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+elev_fsm_part_5.c(657): warning:  #1-D: last line of file ends without a newline
+  -*------------------------------------------------------------------*/
+elev_fsm_part_5.c: 2 warnings, 0 errors
+compiling io_lib.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+io_lib.c(207): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t port, ret_status = SUCCESS;
+io_lib.c(260): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t port, port_pin, ret_status;
+io_lib.c(347): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t port, port_pin, ret_status  ;
+io_lib.c(394): warning:  #550-D: variable "ret_status" was set but never used
+          uint8_t port, start_port_pin, ret_status = SUCCESS, i ;
+io_lib.c(671): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t ret_status = SUCCESS, port, start_port_pin;
+io_lib.c(718): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t port, ret_status = SUCCESS;
+io_lib.c(764): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status, port, start_port_pin, i ;
+io_lib.c(924): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t port, port_pin, ret_status;
+io_lib.c(963): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t port, start_port_pin, end_port_pin, cur_port_pin, cur_pin_sel, cur_pin_sel_bit, ret_status, i;
+io_lib.c(1062): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status, pin_sel_id, pin_sel_bit;
+io_lib.c(1102): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status;
+io_lib.c(1139): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status;
+io_lib.c: 13 warnings, 0 errors
+compiling isr.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+isr.c(56): warning:  #550-D: variable "ret_status" was set but never used
+      uint16_t ret_status;       
+isr.c(335): warning:  #550-D: variable "ret_status" was set but never used
+        uint16_t ret_status;
+isr.c(385): warning:  #550-D: variable "ret_status" was set but never used
+        uint16_t ret_status;
+isr.c(436): warning:  #550-D: variable "ret_status" was set but never used
+        uint16_t ret_status;
+isr.c(488): warning:  #550-D: variable "ret_status" was set but never used
+        uint16_t ret_status;
+isr.c(663): warning:  #550-D: variable "ret_status" was set but never used
+        uint16_t ret_status;     
+isr.c: 7 warnings, 0 errors
+compiling main.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+dev_chs_map.h(121): warning:  #1-D: last line of file ends without a newline
+                                                                                                                                                
+misc_ids_map.h(116): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t)ISR_Timer_0,            INTP_REQ_TMR0,           INTERRUPT_REQ_NA,           STATE_NO,    VECTOR_SLOT_NA,   STATE_NO },
+misc_ids_map.h(117): warning:  #1296-D: extended constant initialiser used
+                                                                       {(uint32_t)ISR_Timer_1,            INTP_REQ_TMR1,           INTERRUPT_REQ_VECTOR_IRQ,   STATE_NO,    VECTOR_SLOT_06,   STATE_NO },
+misc_ids_map.h(126): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t)ISR_Ext_Interrupt_0,    INTP_REQ_EINT0,          INTERRUPT_REQ_NA,           STATE_NO,    VECTOR_SLOT_NA,   STATE_NO }, 
+misc_ids_map.h(127): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t)ISR_Ext_Interrupt_1,    INTP_REQ_EINT1,          INTERRUPT_REQ_NA,   STATE_NO,    VECTOR_SLOT_NA,   STATE_NO }, 
+misc_ids_map.h(128): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t)ISR_Ext_Interrupt_2,    INTP_REQ_EINT2,          INTERRUPT_REQ_VECTOR_IRQ,   STATE_NO,    VECTOR_SLOT_04,   STATE_NO },  
+misc_ids_map.h(129): warning:  #1296-D: extended constant initialiser used
+                                                                                                                                         {(uint32_t)ISR_Ext_Interrupt_3,    INTP_REQ_EINT3,          INTERRUPT_REQ_VECTOR_IRQ,   STATE_NO,    VECTOR_SLOT_05,   STATE_NO },  
+misc_ids_map.h(144): warning:  #1-D: last line of file ends without a newline
+                                                                                                                                                                                 
+main.c(135): warning:  #111-D: statement is unreachable
+        return SUCCESS;
+main.c(118): warning:  #550-D: variable "ret_status" was set but never used
+        uint16_t ret_status;
+main.c(155): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status;
+main.c(222): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t ret_status; 
+main.c(259): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status = SUCCESS ;
+main.c: 14 warnings, 0 errors
+compiling seg7_lib.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+seg7_lib.c(58): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t cc_digit[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x3E ,0x5E, 0x40, 0x79 }, ret_status = SUCCESS, base;
+seg7_lib.c(515): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t ret_status = SUCCESS ; 
+seg7_lib.c(585): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t ret_status = SUCCESS;
+seg7_lib.c: 4 warnings, 0 errors
+compiling std_lib.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+std_lib.c(454): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t data_id = 0, ret_status, max_req_data_len;
+std_lib.c(492): warning:  #550-D: variable "ret_status" was set but never used
+        char data_read_terminator_char, ret_status;
+std_lib.c(704): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status;     
+std_lib.c(749): warning:  #177-D: variable "error_lcd_ch_id" was declared but never referenced
+        uint8_t error_lcd_ch_id = TRACE_LCD_CH_ID, error_uart_ch_id = TRACE_UART_CH_ID, ret_status;
+std_lib.c(749): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t error_lcd_ch_id = TRACE_LCD_CH_ID, error_uart_ch_id = TRACE_UART_CH_ID, ret_status;
+std_lib.c(1069): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status;
+std_lib.c(1109): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t data_id, ret_status;
+std_lib.c: 8 warnings, 0 errors
+compiling timer.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+timer.c(359): warning:  #191-D: type qualifier is meaningless on cast type
+                (src_interrupt_dev_data + src_interrupt_data_arr_free_index)->src_interrupt_data_ptr = (volatile void *volatile) (timer_or_counter_interrupt_data + CH_ID_00);
+timer.c(345): warning:  #550-D: variable "ret_status" was set but never used
+        uint16_t ret_status;
+timer.c(436): warning:  #191-D: type qualifier is meaningless on cast type
+                        (src_interrupt_dev_data + src_interrupt_data_arr_free_index)->src_interrupt_data_ptr = (volatile void *volatile)(timer_or_counter_interrupt_data + CH_ID_01);
+timer.c(384): warning:  #550-D: variable "ret_status" was set but never used
+        uint16_t ret_status; 
+timer.c(462): warning:  #550-D: variable "ret_status" was set but never used
+      uint16_t ret_status;
+timer.c(509): warning:  #550-D: variable "ret_status" was set but never used
+        uint16_t ret_status;
+timer.c: 7 warnings, 0 errors
+compiling uart.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+uart.c(61): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t uart_io_ch, ret_status, temp_data;
+uart.c(201): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status, tx_num_chars = 0;
+uart.c(247): warning:  #550-D: variable "ret_status" was set but never used
+      uint8_t base, place_digit[MAX_UART_DIGITS], ret_status;    
+uart.c(413): warning:  #177-D: variable "framing_error_msg_disp" was declared but never referenced
+        const char framing_error_msg_disp[] = "FERR", overrun_error_msg_disp[] = "OERR";
+uart.c(413): warning:  #177-D: variable "overrun_error_msg_disp" was declared but never referenced
+        const char framing_error_msg_disp[] = "FERR", overrun_error_msg_disp[] = "OERR";
+uart.c(414): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t uart_rcvd_status, ret_status;
+uart.c(685): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t uart_io_ch, ret_status;
+uart.c(836): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status = SUCCESS, output_data_type ;    
+uart.c(969): warning:  #177-D: variable "ret_status" was declared but never referenced
+      uint8_t ret_status;
+uart.c(1241): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status;
+uart.c(1347): warning:  #177-D: variable "ret_status" was declared but never referenced
+    uint8_t ret_status;
+uart.c: 12 warnings, 0 errors
+compiling sw_lib.c...
+constants.h(22): warning:  #47-D: incompatible redefinition of macro "NULL_PTR" (declared at line 56 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+  #define NULL_PTR                                      ((void *)0)
+sw_lib.c(49): warning:  #550-D: variable "ret_status" was set but never used
+            uint8_t ret_status = FAILURE, sw_ch_id;
+sw_lib.c(254): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t ret_status = SUCCESS, sw_ch_id;
+sw_lib.c(494): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status, sw_read_data;
+sw_lib.c(650): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t ret_status = SUCCESS;
+sw_lib.c(695): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t  sw_ch_id, ret_status;  
+sw_lib.c(941): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t ret_status = SUCCESS, alloc_base_sw_ch_id = sw_ch_id;  
+sw_lib.c(1003): warning:  #550-D: variable "ret_status" was set but never used
+         uint8_t ret_status = SUCCESS ; 
+sw_lib.c(1157): warning:  #550-D: variable "ret_status" was set but never used
+        uint8_t offset_sw_ch_id, sw_ch_id, ret_status;
+sw_lib.c(1201): warning:  #550-D: variable "ret_status" was set but never used
+         uint16_t ret_status;
+sw_lib.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=115996 RO-data=304 RW-data=1192 ZI-data=1496  
+FromELF: creating hex file...
+".\Objects\elevator_04.axf" - 0 Error(s), 110 Warning(s).
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.\objects\io_lib.o: io_lib.c
+.\objects\io_lib.o: main.h
+.\objects\io_lib.o: C:\Keil_v5\ARM\Inc\Philips\lpc213x.h
+.\objects\io_lib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\io_lib.o: constants.h
+.\objects\io_lib.o: sys_status.h
+.\objects\io_lib.o: io_conf.h
+.\objects\io_lib.o: sw_lib.h
+.\objects\io_lib.o: seg7_lib.h
+.\objects\io_lib.o: uart.h
+.\objects\io_lib.o: timer.h
+.\objects\io_lib.o: isr.h
+.\objects\io_lib.o: appl_conf.h
+.\objects\io_lib.o: io_lib.h
+.\objects\io_lib.o: port.h
+.\objects\io_lib.o: std_lib.h
+.\objects\io_lib.o: dev_oper.h

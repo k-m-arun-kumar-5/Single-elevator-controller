@@ -1,0 +1,21 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\appl.o"
+".\objects\dev_oper.o"
+".\objects\elev_fsm_part_1.o"
+".\objects\elev_fsm_part_2.o"
+".\objects\elev_fsm_part_3.o"
+".\objects\elev_fsm_part_4.o"
+".\objects\elev_fsm_part_5.o"
+".\objects\io_lib.o"
+".\objects\isr.o"
+".\objects\main.o"
+".\objects\seg7_lib.o"
+".\objects\std_lib.o"
+".\objects\timer.o"
+".\objects\uart.o"
+".\objects\sw_lib.o"
+--strict --scatter ".\Objects\elevator_04.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\elevator_04.map" -o .\Objects\elevator_04.axf

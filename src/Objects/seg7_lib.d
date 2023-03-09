@@ -1,0 +1,17 @@
+.\objects\seg7_lib.o: seg7_lib.c
+.\objects\seg7_lib.o: main.h
+.\objects\seg7_lib.o: C:\Keil_v5\ARM\Inc\Philips\lpc213x.h
+.\objects\seg7_lib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\seg7_lib.o: constants.h
+.\objects\seg7_lib.o: sys_status.h
+.\objects\seg7_lib.o: io_conf.h
+.\objects\seg7_lib.o: sw_lib.h
+.\objects\seg7_lib.o: seg7_lib.h
+.\objects\seg7_lib.o: uart.h
+.\objects\seg7_lib.o: timer.h
+.\objects\seg7_lib.o: isr.h
+.\objects\seg7_lib.o: appl_conf.h
+.\objects\seg7_lib.o: io_lib.h
+.\objects\seg7_lib.o: port.h
+.\objects\seg7_lib.o: std_lib.h
+.\objects\seg7_lib.o: dev_oper.h
