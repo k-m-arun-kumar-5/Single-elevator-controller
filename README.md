@@ -131,13 +131,6 @@ Abnormal event:
 ---------------
 Set the alarm and buzzer is set and if previous FSM state is Emergency Stop, then move to next floor and stop the car movement, and if previous FSM state is Emergency Stop or trigger door close, then trigger the car door to open and doors is opened. If previous FSM state is Emergency Stop or trigger door close or Trigger Door open, then car door open and car door close are reset and then go to idle FSM state.  Make sure that car is stationary, floor door and elevator car door are correctly aligned and door is opened. 
 
-
-Project using LPC2138, included with design, development, simulated and tested, using a simulator, are as follows :
-====================================================================================================================
-1:
-2: Implementation of function operation of scanf, sscanf, printf, sprintf, gets, puts, putchar and getchar using Embedded C in LPC2138 microcontroller.
-3: Single user account authentication with authentication timeout.
- 
 CAUTION:
 ========
 Schematics and simulation is done by Proteus CAD. NOT EXPERIMENTED IN REAL TIME ENVIRONMENT.
@@ -148,7 +141,6 @@ In all my respective repositories, I just shared my works that I worked as the l
        
 My Thanks and Tribute :
 ========================
-
 I thank to my family, Friends, Teachers, People behind the toolchains and references that I used, all those who directly or indirectly supported me and/or helped me and/or my family, Nature and God. My tribute to my family, Friends, Teachers, People behind the toolchains and references that I used, Nature, Jimmy Dog, God and all those, who directly or indirectly help and/or support me and/or my family.
 
 Toolchains that I used for LPC2138 Application design and development are as follows :
