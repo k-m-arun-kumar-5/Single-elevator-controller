@@ -1,6 +1,6 @@
 Description :
 ============
-I, K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced Embedded C programming using LPC2138 (ARM7TDMI-S 32 bit RISC microcontroller) for Application for scalable 5 floor single elevator controller.
+I, K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced Embedded C programming using LPC2138 (ARM7TDMI-S 32 bit RISC microcontroller) to build scalable 5 floor single elevator controller.
 
 Features of 5 floor single elevator controller are:
 ====================================================
